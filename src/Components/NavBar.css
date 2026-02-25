@@ -1,0 +1,25 @@
+.logo{
+    height: 85%;
+}
+
+.navegator {
+    height: 20%;
+    max-width: 1400px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
