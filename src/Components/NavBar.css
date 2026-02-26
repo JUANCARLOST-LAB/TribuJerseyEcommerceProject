@@ -1,11 +1,12 @@
 .logo{
     height: 85%;
+    padding-right: 0;
 }
 
 .navegator {
     height: 20%;
     max-width: 1400px;
-    width: 100%;
+    width: 95%;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,4 +24,18 @@
     border: none;
     outline: none;
     box-shadow: none;
+}
+
+.navigationLinks{
+    width: 60%;
+    display: flex;
+}
+
+.navigationLinks a{
+    padding-right: 30px;
+    color: rgb(139, 149, 149);
+}
+
+.navigationLinks a:hover{
+    color: rgb(86, 91, 91);
 }

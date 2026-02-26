@@ -6,10 +6,13 @@ import NavBar from './Components/NavBar.jsx'
 import ItemListContainer from './Components/ItemListContainer.jsx'
 
 function App() {
+
+  const mensajeBienvenida = "Bienvenidos a Tribu Jersey!";
+
   return (
     <>
       <NavBar />
-      <ItemListContainer />
+      <ItemListContainer mensaje={mensajeBienvenida}/>
     </>
   )
 }
