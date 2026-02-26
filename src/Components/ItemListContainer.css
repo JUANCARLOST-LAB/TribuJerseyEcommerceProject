@@ -1,0 +1,8 @@
+.ItemsContainer{
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1300px;
+    margin-top: 12%;    
+    row-gap: 10px;
+}
